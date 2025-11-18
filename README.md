@@ -1,9 +1,8 @@
-# Kalkulator GUI Java (Modern Design)
+# Kalkulator GUI Java
 
-Repositori ini berisi *source code* aplikasi Kalkulator sederhana dengan antarmuka pengguna grafis (GUI) yang modern. Aplikasi ini dibangun menggunakan bahasa pemrograman **Java** dan library **Swing**.
+Repositori ini berisi *source code* aplikasi Kalkulator sederhana dengan antarmuka pengguna grafis (GUI). Aplikasi ini dibangun menggunakan bahasa pemrograman **Java** dan library **Swing**.
 
-Proyek ini dibuat untuk memenuhi tugas mata kuliah Pemrograman Berorientasi Objek (PBO) / Pemrograman Java.
-
+Proyek ini dibuat untuk memenuhi tugas mata kuliah Pemrograman Berorientasi Objek (PBO)
 ## 👥 Anggota Kelompok
 
 | No | Nama Anggota | NIM | Kelas |
@@ -13,18 +12,6 @@ Proyek ini dibuat untuk memenuhi tugas mata kuliah Pemrograman Berorientasi Obje
 | 3 | **Redista Rakha Izza** | 21120123130085 | C |
 | 4 | **Adnan** | 21120123130079 | C |
 ---
-
-## ✨ Fitur Aplikasi
-
-Aplikasi kalkulator ini dirancang dengan tampilan yang bersih (tema terang) dan fungsionalitas yang mirip dengan kalkulator pada *smartphone* modern.
-
-* **Operasi Dasar:** Penjumlahan (+), Pengurangan (-), Perkalian (×), Pembagian (÷), dan Modulo (%).
-* **Desain Modern:** Menggunakan tombol berbentuk bulat (*Rounded Buttons*) dan tata letak yang responsif.
-* **Riwayat Perhitungan:** Menampilkan proses perhitungan (history) kecil di atas angka utama (contoh: `7 x 7 =`).
-* **Input Desimal:** Mendukung angka berkoma (otomatis konversi format `,` menjadi `.`).
-* **Fitur Koreksi:**
-    * `AC` (All Clear): Menghapus semua input dan mereset kalkulator.
-    * `⌫` (Backspace): Menghapus satu digit terakhir.
 
 ## 🛠️ Teknologi yang Digunakan
 
