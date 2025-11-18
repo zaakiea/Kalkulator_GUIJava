@@ -6,13 +6,12 @@ Proyek ini dibuat untuk memenuhi tugas mata kuliah Pemrograman Berorientasi Obje
 
 ## 👥 Anggota Kelompok
 
-| No | Nama Lengkap | NIM (Nomor Induk Mahasiswa) | 
-| :-: | :--- | :--- | :--- |
-| 1. | **[Isi Nama Anggota 1]** | [Isi NIM] |
-| 2. | **[Isi Nama Anggota 2]** | [Isi NIM] | 
-| 3. | **[Isi Nama Anggota 3]** | [Isi NIM] | 
-| 4. | **[Isi Nama Anggota 4]** | [Isi NIM] | 
-
+| No | Nama Anggota | NIM | Kelas |
+| :---: | :--- | :---: | :---: |
+| 1 | **Bimo Kusumo Putro Wicaksono** | 21120123120029 | C |
+| 2 | **Dzaki Eka Atmaja** | 21120123130068 | C |
+| 3 | **Redista Rakha Izza** | 21120123130085 | C |
+| 4 | **Adnan** | 21120123130079 | C |
 ---
 
 ## ✨ Fitur Aplikasi
