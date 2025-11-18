@@ -11,6 +11,9 @@ package Calculator;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.text.DecimalFormat; // <--- Tambahkan ini
+import java.text.DecimalFormatSymbols; // <--- Tambahkan ini
+import java.util.Locale; // <--- Tambahkan ini
 
 public class CalculatorGUI extends JFrame implements ActionListener {
 
@@ -105,16 +108,19 @@ public class CalculatorGUI extends JFrame implements ActionListener {
         setVisible(true);
     }
 
-    // Helper: Format tampilan (menghilangkan .0 dan mengganti . jadi ,)
+   // Helper: Format tampilan (Membatasi desimal agar tidak terlalu panjang)
     private String formatNumber(double val) {
-        String text;
-        if (val % 1 == 0) {
-            text = String.valueOf((int)val);
-        } else {
-            text = String.valueOf(val);
-        }
-        // Ubah titik jadi koma untuk tampilan visual
-        return text.replace(".", ",");
+        // Membuat format angka
+        // tanda '#' berarti digit hanya ditampilkan jika diperlukan (bukan 0)
+        // Kami membatasi hingga 10 digit desimal
+        DecimalFormatSymbols symbols = new DecimalFormatSymbols(Locale.US);
+        symbols.setDecimalSeparator(','); // Pakai koma sebagai pemisah desimal
+        symbols.setGroupingSeparator('.'); // Titik sebagai pemisah ribuan (opsional)
+        
+        // Pola: maksimal 10 angka di belakang koma
+        DecimalFormat df = new DecimalFormat("#.########", symbols);
+        
+        return df.format(val);
     }
 
     // Helper: Parse string ke double (mengganti , jadi . agar Java mengerti)
